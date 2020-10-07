@@ -1,0 +1,912 @@
+@font-face {
+	font-family: 'icomoon';
+	src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+	src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+.section {
+	margin: auto;
+	padding: 90px 15px;
+
+}
+
+.section .section-center {
+	margin: auto;
+	padding: 60px 15px;
+	max-width: 1070px;
+}
+
+.login-box{
+	top: 50% !important;
+}
+
+.signup-box{
+	top: 50% !important;
+}
+
+#booking {
+	font-family: 'PT Sans', sans-serif;
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.booking-form {
+	background: rgba(0, 0, 0, 0.7);
+	padding: 40px;
+	border-radius: 6px;
+}
+
+.booking-form .form-group {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.booking-form .form-control {
+	background-color: #fff;
+	height: 50px;
+	color: #191a1e;
+	border: none;
+	font-size: 16px;
+	font-weight: 400;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 40px;
+	padding: 0px 25px;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.booking-form .form-control::placeholder {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.booking-form input[type="date"].form-control:invalid {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.booking-form select.form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.booking-form select.form-control+.select-arbox {
+	position: absolute;
+	right: 10px;
+	bottom: 6px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+}
+
+.booking-form select.form-control+.select-arbox:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+	display: block;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 24px;
+	height: 24px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.booking-form .form-checkbox input {
+	position: absolute !important;
+	margin-left: -9999px !important;
+	visibility: hidden !important;
+}
+
+.booking-form .form-checkbox label {
+	position: relative;
+	padding-top: 4px;
+	padding-left: 30px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.booking-form .form-checkbox label+label {
+	margin-left: 15px;
+}
+
+.booking-form .form-checkbox input+span {
+	position: absolute;
+	left: 2px;
+	top: 4px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border-radius: 50%;
+}
+
+.booking-form .form-checkbox input+span:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 0px;
+	height: 0px;
+	border-radius: 50%;
+	background-color: #f23e3e;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.booking-form .form-checkbox input:not(:checked)+span:after {
+	opacity: 0;
+}
+
+.booking-form .form-checkbox input:checked+span:after {
+	opacity: 1;
+	width: 10px;
+	height: 10px;
+}
+
+.booking-form .form-btn {
+	margin-top: 27px;
+}
+
+.booking-form .submit-btn {
+	color: #fff;
+	background-color: #f23e3e;
+	font-weight: 400;
+	height: 50px;
+	font-size: 14px;
+	border: none;
+	width: 100%;
+	border-radius: 40px;
+	text-transform: uppercase;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+.booking-form .submit-btn:hover,
+.booking-form .submit-btn:focus {
+	opacity: 0.9;
+}
+
+#booking h1{
+	font-size: 50px;
+	padding-top: 40px;
+}
+
+#booking h2{
+	color: #f23e3e;
+}
+
+#login h1{
+	font-size: 50px;
+	margin-top: 100px; 
+}
+
+#login h2{
+	color: #f23e3e;
+}
+
+#signup h1{
+	font-size: 50px;
+	margin-top: 100px; 
+}
+
+#signup h2{
+	color: #f23e3e;
+}
+
+#login{
+	font-family: 'PT Sans', sans-serif;
+	background-image: url('../img/login.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.login-form{
+	background: rgba(0, 0, 0, 0.7);
+	padding: 40px;
+	border-radius: 6px;
+	min-width: 400px;
+}
+
+.login-form .form-group {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.login-form .form-control {
+	background-color: #fff;
+	height: 50px;
+	color: #191a1e;
+	border: none;
+	font-size: 16px;
+	font-weight: 400;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 40px;
+	padding: 0px 25px;
+}
+
+.login-form .form-control::-webkit-input-placeholder {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.login-form .form-control:-ms-input-placeholder {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.login-form .form-control::placeholder {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.login-form input[type="date"].form-control:invalid {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.login-form select.form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.login-form select.form-control+.select-arbox {
+	position: absolute;
+	right: 10px;
+	bottom: 6px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+}
+
+.login-form select.form-control+.select-arbox:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.login-form .form-label {
+	display: block;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 24px;
+	height: 24px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.login-form .form-checkbox input {
+	position: absolute !important;
+	margin-left: -9999px !important;
+	visibility: hidden !important;
+}
+
+.login-form .form-checkbox label {
+	position: relative;
+	padding-top: 4px;
+	padding-left: 30px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.login-form .form-checkbox label+label {
+	margin-left: 15px;
+}
+
+.login-form .form-checkbox input+span {
+	position: absolute;
+	left: 2px;
+	top: 4px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border-radius: 50%;
+}
+
+.login-form .form-checkbox input+span:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 0px;
+	height: 0px;
+	border-radius: 50%;
+	background-color: #f23e3e;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.login-form .form-checkbox input:not(:checked)+span:after {
+	opacity: 0;
+}
+
+.login-form .form-checkbox input:checked+span:after {
+	opacity: 1;
+	width: 10px;
+	height: 10px;
+}
+
+.login-form .form-btn {
+	margin-top: 27px;
+}
+
+.login-form .submit-btn {
+	color: #fff;
+	background-color: #f23e3e;
+	font-weight: 400;
+	height: 50px;
+	font-size: 14px;
+	border: none;
+	width: 100%;
+	border-radius: 40px;
+	text-transform: uppercase;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+.login-form .submit-btn:hover,
+.login-form .submit-btn:focus {
+	opacity: 0.9;
+}
+
+#signup{
+	font-family: 'PT Sans', sans-serif;
+	background-image: url('../img/login.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.signup-form{
+	background: rgba(0, 0, 0, 0.7);
+	padding: 40px;
+	border-radius: 6px;
+	min-width: 400px;
+}
+
+.signup-form .form-group {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.signup-form .form-control {
+	background-color: #fff;
+	height: 50px;
+	color: #191a1e;
+	border: none;
+	font-size: 16px;
+	font-weight: 400;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 40px;
+	padding: 0px 25px;
+}
+
+.signup-form .form-control::-webkit-input-placeholder {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.signup-form .form-control:-ms-input-placeholder {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.signup-form .form-control::placeholder {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.signup-form input[type="date"].form-control:invalid {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.signup-form select.form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.signup-form select.form-control+.select-arbox {
+	position: absolute;
+	right: 10px;
+	bottom: 6px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+}
+
+.signup-form select.form-control+.select-arbox:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.signup-form .form-label {
+	display: block;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 24px;
+	height: 24px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.signup-form .form-checkbox input {
+	position: absolute !important;
+	margin-left: -9999px !important;
+	visibility: hidden !important;
+}
+
+.signup-form .form-checkbox label {
+	position: relative;
+	padding-top: 4px;
+	padding-left: 30px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.signup-form .form-checkbox label+label {
+	margin-left: 15px;
+}
+
+.signup-form .form-checkbox input+span {
+	position: absolute;
+	left: 2px;
+	top: 4px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border-radius: 50%;
+}
+
+.signup-form .form-checkbox input+span:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 0px;
+	height: 0px;
+	border-radius: 50%;
+	background-color: #f23e3e;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.signup-form .form-checkbox input:not(:checked)+span:after {
+	opacity: 0;
+}
+
+.signup-form .form-checkbox input:checked+span:after {
+	opacity: 1;
+	width: 10px;
+	height: 10px;
+}
+
+.signup-form .form-btn {
+	margin-top: 40px;
+}
+
+.signup-form .submit-btn {
+	color: #fff;
+	background-color: #f23e3e;
+	font-weight: 400;
+	height: 50px;
+	font-size: 14px;
+	border: none;
+	width: 100%;
+	border-radius: 40px;
+	text-transform: uppercase;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+.signup-form .submit-btn:hover,
+.signup-form .submit-btn:focus {
+	opacity: 0.9;
+}
+
+.signup-form .radio-label {
+	font-weight: 400;
+	color: #fff;
+}
+
+#admin{
+	background-color: #f4f4f4;
+}
+
+#admin h1{
+	color: #f23e3e;
+	font-family: 'Roboto';
+	margin-bottom: 30px;
+}
+
+/*.admin-login{
+	position: relative;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}*/
+
+.admin-login .admin-form{
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 6px;
+
+}
+
+.admin-form .form-group{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.admin-form .form-control{
+	background-color: #fff;
+	height: 50px;
+	color: #191a1e;
+	font-size: 16px;
+	font-weight: 400;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 5px;
+	padding: 0px 25px;
+}
+
+.admin-form .submit-btn {
+	color: #fff;
+	background-color: #f23e3e;
+	font-weight: 400;
+	height: 50px;
+	font-size: 14px;
+	border: none;
+	width: 100%;
+	border-radius: 40px;
+	text-transform: uppercase;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+.admin-form .form-label {
+	display: block;
+	margin-left: 35px;
+	margin-bottom: 5px;
+	font-weight: 400;
+	line-height: 24px;
+	height: 24px;
+	font-size: 16px;
+	color: #000;
+}
+
+.header-username>a {
+	background-color: #707070;
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 15px;
+	padding-top: 15px;
+}
+
+#search {
+	font-family: 'PT Sans', sans-serif;
+	background-color: #e8e8e8;
+}
+
+#search .container{
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#search h1{
+	position: relative;
+	padding-top: 20px;
+}
+
+#search h4{
+	color: #57585b;
+	font-size: 18px;
+}
+
+#search h5{
+	position: relative;
+	color: #57585b;
+	font-size: 16px;
+}
+
+#search h3{
+	position: relative;
+	color: #57585b;
+	font-size: 13px;
+}
+
+#search h6{
+	position: relative;
+	color: #57585b;
+	font-size: 14px;
+}
+
+#search .box{
+	padding: 5px;
+	border: 1px solid #d8d8d8;
+	border-radius: 8px;
+	margin: 5px;
+}
+
+
+#search span{
+	color: white;
+	background-color: #f23e3e;
+	padding: 5px;
+	border-radius: 5px; 
+}
+
+.choose-btn {
+	border: 0px;
+	background-color: #f23e3e;
+	color: white;
+	padding: 7px;
+	width: 160px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.choose-btn:hover {
+	opacity: 0.9;
+}
+
+.flight-price{
+	color: #f23e3e;
+}
+
+#search .flight-price{
+	color: #f23e3e;
+}
+
+.btn-full {
+	background-color: #c7c7c7;
+}
+
+#prebooking {
+	font-family: 'PT Sans', sans-serif;
+	background-color: #e8e8e8;
+}
+
+#prebooking .container{
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#prebooking h1{
+	position: relative;
+	padding-top: 20px;
+}
+
+#prebooking h4{
+	position: relative;
+	color: #57585b;
+	font-size: 22px;
+}
+
+#prebooking h5{
+	position: relative;
+	color: #57585b;
+	font-size: 16px;
+}
+
+#prebooking h3{
+	position: relative;
+	color: #57585b;
+	font-size: 13px;
+}
+
+#prebooking h6{
+	position: relative;
+	color: #57585b;
+	font-size: 14px;
+}
+
+#prebooking .box{
+	padding: 5px;
+	border: 1px solid #d8d8d8;
+	border-radius: 8px;
+	margin: 5px;
+}
+
+
+
+#prebooking .container-2{
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#prebooking .detail-table{
+	width: 100%;
+}
+
+#search .detail-table{
+	width: 100%;
+}
+
+.customer-form .form-control{
+	background-color: #fff;
+	height: 50px;
+	color: #191a1e;
+	font-size: 16px;
+	font-weight: 400;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 5px;
+	padding: 0px 25px;
+}
+
+#prebooking .form-btn {
+	margin-top: 40px;
+}
+
+.choose-btn {
+	border: 0px;
+	background-color: #f23e3e;
+	color: white;
+	padding: 7px;
+	width: 160px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+/* customer */
+.customer-color{
+    width: 30px;
+    height: 30px;
+    background-color:#4fc1e9;
+    cursor:pointer;
+    border-radius:5px;
+}
+.customer-selected{
+    background-color:#3ca6cb;
+}
+
+.customer-table{
+    margin: auto;
+}
+.customer-table > tbody > tr > td > span{
+    font-weight: 550;
+}
+
+.customer-table > tbody > tr > td > input{
+    padding: 9px;
+    text-align: center;
+    width: 46px;
+    height: 30px;
+}
+.customer-table > tbody > tr > td {
+    padding: 10px;
+}
+/* seat */
+.seat{
+    width: 310px;
+    margin: auto;
+    background-color: #f2f2f2;
+    padding: 5px;
+    overflow: hidden;
+    border-radius:7px;
+}
+.seat-id{
+    height: 46px;
+    width: 46px;
+    margin:2px;
+    background-color: #bfbfbf;
+    float: left;
+    cursor: pointer;
+    border-radius:7px;
+}
+.seat-id:hover{
+    /* background-color:#cecece; */
+}
+.seat-id > p{
+    text-align: center;
+    padding-top: 12px;
+    color:white;
+}
+.seat-notavailabe{
+    background-color: #f25d52;
+    /* cursor:disabl */
+}
+.seat-selected{
+    background-color: #52f298;
+}
+
+/* seat by jondes ganteng */
+
+
+.status-paid {
+	margin-bottom: 15px;
+	padding: 10px;
+	background-color: #48ed9c;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.status-unpaid {
+	margin-bottom: 15px;
+	padding: 10px;
+	background-color: #ff4848;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.booking-unpaid,
+.booking-paid {
+	margin-top: 20px;
+}
+
+.booking-unpaid>h4 {
+	margin-bottom: 10px;
+	line-height: 23px;
+}
+
+.status-check {
+	margin-bottom: 15px;
+	padding: 7px 10px;
+	background-color: #4fc1e9;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+#admin .container{
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	border-radius: 10px;
+	max-width: 400px;
+}
